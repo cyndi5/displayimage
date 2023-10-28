@@ -1,6 +1,6 @@
-# Anagrams
+# DisplayImage
 
-Tool to assist in finding anagrams with certain minimum set of letters and optional set of letters. The results may be further refined using a regular expression.
+Tool to display a point cloud.
 
 ## Author
 
