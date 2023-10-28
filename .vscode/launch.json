@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: displayimage",
+            "name": "Python: displayimage --file IMG_3561b.jpg",
             "type": "python",
             "request": "launch",
             "program": "displayimage.py",
-            "args": [],
+            "args": ["--threed", "IMG_3015/IMG_3015.PNG", "--image", "IMG_3014/IMG_3014resize.PNG"],
             "console": "integratedTerminal",
             "justMyCode": true
         }
