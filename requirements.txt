@@ -1,0 +1,21 @@
+apptools==5.2.1
+configobj==5.0.8
+contourpy==1.1.1
+cycler==0.12.1
+envisage==7.0.3
+fonttools==4.43.1
+kiwisolver==1.4.5
+matplotlib==3.8.0
+mayavi @ https://github.com/enthought/mayavi/zipball/master
+numpy==1.26.1
+packaging==23.2
+Pillow==10.1.0
+pyface==8.0.0
+Pygments==2.16.1
+pyparsing==3.1.1
+python-dateutil==2.8.2
+six==1.16.0
+traits==6.4.3
+traitsui==8.0.0
+vtk==9.2.6
+wxPython==4.2.1
