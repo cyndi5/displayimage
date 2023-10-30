@@ -30,12 +30,14 @@ def main():
     image = Image.open(image_path)
     threed = Image.open(threed_path)
     image.show()
+    image_converted = image.convert('L')
+    image_data = np.asarray(image_converted.getdata()).reshape(image_converted.size)
     threed.show()
     threed_converted = threed.convert('L')
     threed_data = np.asarray(threed_converted.getdata()).reshape(threed_converted.size)
 
     s = np.random.rand(20, 20, 20)
-    volume = mlab.pipeline.volume(mlab.pipeline.scalar_field(s), vmin=0, vmax=0.8)
+    volume = mlab.pipeline.volume(mlab.pipeline.scalar_field(threed_data), vmin=0, vmax=0.8)
 
     mlab.draw()
     mlab.savefig('output.png')
